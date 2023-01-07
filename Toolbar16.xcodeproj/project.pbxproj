@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		4953E1AB296A1D2600E0AD82 /* Toolbar16App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4953E1AA296A1D2600E0AD82 /* Toolbar16App.swift */; };
-		4953E1AD296A1D2600E0AD82 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4953E1AC296A1D2600E0AD82 /* ContentView.swift */; };
 		4953E1AF296A1D2800E0AD82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4953E1AE296A1D2800E0AD82 /* Assets.xcassets */; };
 		4953E1B2296A1D2800E0AD82 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4953E1B1296A1D2800E0AD82 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,9 +15,9 @@
 /* Begin PBXFileReference section */
 		4953E1A7296A1D2600E0AD82 /* Toolbar16.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Toolbar16.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4953E1AA296A1D2600E0AD82 /* Toolbar16App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toolbar16App.swift; sourceTree = "<group>"; };
-		4953E1AC296A1D2600E0AD82 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4953E1AE296A1D2800E0AD82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4953E1B1296A1D2800E0AD82 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		497850A6296A226100F1BC90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +50,8 @@
 		4953E1A9296A1D2600E0AD82 /* Toolbar16 */ = {
 			isa = PBXGroup;
 			children = (
+				497850A6296A226100F1BC90 /* Info.plist */,
 				4953E1AA296A1D2600E0AD82 /* Toolbar16App.swift */,
-				4953E1AC296A1D2600E0AD82 /* ContentView.swift */,
 				4953E1AE296A1D2800E0AD82 /* Assets.xcassets */,
 				4953E1B0296A1D2800E0AD82 /* Preview Content */,
 			);
@@ -137,7 +136,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4953E1AD296A1D2600E0AD82 /* ContentView.swift in Sources */,
 				4953E1AB296A1D2600E0AD82 /* Toolbar16App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,7 +268,7 @@
 				DEVELOPMENT_TEAM = 7J8K6Q87RJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = Toolbar16/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -284,7 +282,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -299,7 +297,7 @@
 				DEVELOPMENT_TEAM = 7J8K6Q87RJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = Toolbar16/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -313,7 +311,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
